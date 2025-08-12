@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import Landing from "./Landing";
-import FlightSearch from './components/FlightSearch';
-import FlightBooking from './components/FlightBooking';
-import Confirmation from './components/Confirmation';
+import FlightSearch from './FlightSearch';
+import FlightBooking from './FlightBooking';
+import Confirmation from './Confirmation';
 
 export default function App() {
   return (
