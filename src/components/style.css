@@ -1,8 +1,0 @@
-body { font-family: Arial, sans-serif; padding: 1rem; }
-.app header { margin-bottom: 1rem; }
-#main { padding: 1rem; }
-.loading { color: green; }
-.book-flight { background: #0077cc; color: white; padding: 6px 10px; border: none; cursor: pointer; }
-input[type="text"] { padding: 6px; margin: 6px 0; }
-button { padding: 8px 12px; margin: 6px; }
-
