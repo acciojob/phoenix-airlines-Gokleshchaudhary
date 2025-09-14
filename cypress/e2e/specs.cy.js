@@ -1,6 +1,6 @@
 describe("Phoenix Airlines", () => {
   it("searches and books a one-way flight", () => {
-    cy.visit("http://localhost:8080");
+    cy.visit("http://localhost:3000");
     cy.contains("Book a Flight").click();
     cy.get('select[name="type"]').select("one-way");
     cy.get('input[name="source"]').type("Delhi");
